@@ -4,7 +4,7 @@ For *N* relations *R*<sub>*1*</sub>, ..., *R*<sub>*N*</sub> with corresponding s
 
 # How to Use
 
-#### Prerequisites
+### Prerequisites
 IVM is written in **C++**, using the **STL** and **Boost** libraries. To install Boost on Unix systems, use the following command: **sudo apt-getinstall libboost-all-dev**.
 ### Compilation
 1. Go to **ivm/build**.
