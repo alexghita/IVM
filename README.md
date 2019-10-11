@@ -1,3 +1,4 @@
+#IVM
 IVM (Incremental View Maintenance) is a database system that supports efficient computation of a specific class of queries under frequent updates.
 
 For *N* relations *R*<sub>*1*</sub>, ..., *R*<sub>*N*</sub> with corresponding schemas *(A*<sub>*1*</sub>, ..., *A*<sub>*N-1*</sub>)*, *(A*<sub>*2*</sub>, ..., *A*<sub>*N*</sub>)*, ..., *(A*<sub>*N*</sub>, *A*<sub>*1*</sub>, ..., *A*<sub>*N-2*</sub>*)*, IVM computes their join and incrementally updates the join result under updates to any of the *N* relations. It is assumed the relations are initially empty, and that only insertion updates are performed.
