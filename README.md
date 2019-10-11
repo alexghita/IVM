@@ -11,10 +11,10 @@ IVM is written in **C++**, using the **STL** and **Boost** libraries. To install
 2. Run "**cmake .\.**", then "**make**".
 3. To run IVM, use the following command:
    **./ivm-bin N query-file mode output-file M**, where:
-   - *N* is the number of relations.
-   - *query-file* is the relative path to a CSV file containing the list of updates performed on each relation.
-   - *mode* represents the result update technique, which can be one of the following: **naive**, **delta**, or **view**.
-   - *output-file* represents the relative path to where the query result and total time elapsed after each update are printed.
+   - **N** is the number of relations.
+   - **query-file** is the relative path to a CSV file containing the list of updates performed on each relation.
+   - **mode** represents the result update technique, which can be one of the following: **naive**, **delta**, or **view**.
+   - **output-file** represents the relative path to where the query result and total time elapsed after each update are printed.
 
 ### Plotting Results
 The Python script **plot_throughput.py** can be used to plot the throughput for multiple IVM output files. To use it, run the following command:
@@ -22,5 +22,5 @@ The Python script **plot_throughput.py** can be used to plot the throughput for 
     python plot_throughput.py output-1 legend-1 ... output-k legend-k
     
 where:
-- *output-i* is the relative path to a CSV file outputted by IVM.
-- *legend-i* represents the associated plot legend for *output-file-i*.
+- **output-i** is the relative path to a CSV file outputted by IVM.
+- **legend-i** represents the associated plot legend for **output-i**.
